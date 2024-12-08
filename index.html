@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Giới thiệu bản thân - Phạm Nguyễn Quyết Long</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 20px;
-            padding: 20px;
             background-color: #f4f4f9;
+            color: #333;
         }
         header {
+            text-align: center;
             background-color: #4CAF50;
             color: white;
-            padding: 15px;
-            text-align: center;
+            padding: 15px 0;
         }
-        main {
+        header h1 {
+            margin: 0;
+        }
+        section {
             margin-top: 20px;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
         footer {
-            margin-top: 30px;
+            margin-top: 20px;
             text-align: center;
             font-size: 14px;
             color: #555;
@@ -34,24 +48,43 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Phạm Nguyễn Quyết Long</h1>
+        <p>Giảng viên tại Học viện Kỹ thuật mật mã</p>
     </header>
 
-    <main>
-        <p>This is a simple webpage built with HTML and some inline CSS for styling. It demonstrates basic elements like headers, paragraphs, images, and links.</p>
-        <h2>About Me</h2>
-        <p>Hello! I'm learning how to build websites. This is one of my first attempts, and I'm excited to learn more.</p>
-        <img src="https://via.placeholder.com/600x400" alt="Sample Image">
-        <h2>Useful Links</h2>
+    <section>
+        <h2>Thông tin liên hệ</h2>
         <ul>
-            <li><a href="https://www.google.com" target="_blank">Google</a></li>
-            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
-            <li><a href="https://www.devup.edu.vn" target="_blank">DevUP</a></li>
+            <li><strong>Số điện thoại:</strong> 0988 601 854</li>
+            <li><strong>Email:</strong> <a href="mailto:longkma043@gmail.com">longkma043@gmail.com</a></li>
         </ul>
-    </main>
+    </section>
+
+    <section>
+        <h2>Các dự án đã thực hiện</h2>
+        <ul>
+            <li>
+                <strong>Nghiên cứu và thực hiện tấn công đánh cắp mật khẩu dựa trên âm thanh bàn phím sử dụng mô hình học sâu</strong>  
+                - <a href="https://example.com/project1" target="_blank">Xem chi tiết</a>
+            </li>
+            <li>
+                <strong>Thực thi hệ thống nhận dạng khuôn mặt sử dụng mô hình học sâu trên nền tảng TinyML</strong>  
+                - <a href="https://example.com/project2" target="_blank">Xem chi tiết</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Liên kết mạng xã hội</h2>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
 
     <footer>
-        <p>&copy; 2024 My Simple Website. All rights reserved.</p>
+        <p>&copy; 2024 Phạm Nguyễn Quyết Long. All rights reserved.</p>
     </footer>
 </body>
 </html>
